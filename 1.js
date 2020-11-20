@@ -1,4 +1,4 @@
-var winner = "___"
+var winner = "Mako"
 var highest = 0
 
 var button = document.getElementById("mako"),
