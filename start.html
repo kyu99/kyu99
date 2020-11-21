@@ -3,6 +3,7 @@
 <head>
   <title>Who's Your Bias?</title>
   <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="1.js">winner</script>
 </head>
 <body>
     <div class="container">
@@ -34,13 +35,20 @@
                 <button id="miihi" class="pick-img">Miihi</button>
                 <button id="nina" class="pick-img">Nina</button>
             </div>
+            <h1>
+                <script type="text/javascript">
+                var clicks = 0;
+                function click() {
+                    clicks += 1;
+                    document.getElementById("clicks").innerHTML = clicks;
+                };
+                </script>
+                <button type="button" onClick="click()">Click me</button>
+                <p>Clicks: <a id="clicks"></a></p>
+            </h1>
             <a href="result.html" class="click">Finish</a>
             <a href="index.html" class="click">Back to Home</a>
         </div>
     </div>
-    
-    
-    <script src="1.js"></script>
-
 </body>
 </html>

@@ -19,6 +19,11 @@ h1 {
     color: rebeccapurple;
 }
 
+h2 {
+    font-size: 2.4rem;
+    color: rebeccapurple;
+}
+
 .container {
     width: 100vw;
     height: 100vh;
@@ -63,6 +68,11 @@ h1 {
     background: linear-gradient(90deg, magenta, blue);
 }
 
+.click:hover {
+    font-size: 3rem;
+    background: magenta;
+}
+
 .pick-container {
     display: flex;
     margin-bottom: 0.8rem;
@@ -92,6 +102,11 @@ h1 {
     float: left;
     margin-left: auto;
     margin-right: auto;
+}
+
+.pick-img:hover {
+    background-color: #555;
+    color: wheat;
 }
 
 .pick-img {

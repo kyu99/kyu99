@@ -3,18 +3,33 @@
 <head>
   <title>Who's Your Bias?</title>
   <link rel="stylesheet" type="text/css" href="style.css">
-  <script src="1.js">winner</script>
+  <script src="coba.js">winner</script>
 </head>
 <body>
     <div class="container">
         <div id="home" class="flex-column flex-center">
             <img src="./img/niziu-logo.png" alt="NiziU Logo">
             <h1>
-                Your Bias is
+                Your Bias
                 <script type="text/javascript">
-                  document.write(winner)
+                  if (winner.length < 9) {
+                    document.write("is " + winner)
+                  } else {
+                    document.write("are " + winner)
+                  }
                 </script>
+                <br>
             </h1>
+            <h2>
+              Good Pick! Everyone Love
+                <script type="text/javascript">
+                  if (winner.length < 9) {
+                    document.write(winner)
+                  } else {
+                    document.write("Them All")
+                  }
+                </script>
+            </h2>
             <a href="index.html" class="click">Back to Home</a>
             <a href="start.html" class="click">Try Again</a>
         </div>
